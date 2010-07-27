@@ -1,0 +1,848 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<test>
+	<parameter name="imagePath">/_imgs/tests/flash/</parameter>
+	<parameter name="audioPath">/_media/tests/deploy/mp3/</parameter>
+    <level name="Beginner" 	lower="0"	upper="31"/>
+	<level name="Elementary" 	lower="32" 	upper="50"/>
+	<level name="Intermediate" 	lower="51" 	upper="66"/>
+	<level name="Advanced" 	lower="67" 	upper="80"/>
+	<section>
+		<instruction>
+			<b>LISTENING - Directions for questions 1-10</b><br/>
+			Welcome to the EFSET Assessment test.  You will hear 4 dialogues. When you are finished listening, read and answer the questions for each dialogue. <b>Speakers and/or headphones are required for this section.</b>
+		</instruction>
+		<group>
+			<info>
+				<audio src="listening01.mp3" label="Dialogue 1; question 1 - 3"/>
+				<image src="listening01.jpg"/>
+			</info>
+			<page>
+				<question skill="Listening">What does the woman want to do?
+					<answer type="select-single" style="radio">
+						<option>Catch flight 16.</option>
+						<option>Find gate 15.</option>
+						<option score="1">Go to Dallas.</option>
+						<option>Check her ticket.</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Listening">Her plane...
+					<answer type="select-single" style="radio">
+						<option score="1">left a while ago.</option>
+						<option>is now boarding at gate 16.</option>
+						<option>will leave soon.</option>
+						<option>is being checked for safety.</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Listening">What did the woman find out? 
+					<answer type="select-single" style="radio">
+						<option>where flight 16 is boarding.</option>
+						<option>How to get to gate 16.</option>
+						<option>Her ticket had the wrong departure time.</option>
+						<option score="1">She won't be able to fly to Dallas today.</option>
+					</answer>
+				</question>
+			</page>
+		</group>
+		<group>
+			<info>
+				<audio src="listening02.mp3" label="Dialogue 2; question 4"/>
+				<image src="listening02.jpg"/>
+			</info>
+			<page>
+				<question skill="Listening">What do we know from this conversation?
+					<answer type="select-single" style="radio">
+						<option score="1">She did not get a letter from her family.</option>
+						<option>She is worried about a letter from her family.</option>
+						<option>She is afraid of the telephone bill.</option>
+						<option>She does not expect to get any letters from her family.</option>
+					</answer>
+				</question>
+			</page>
+		</group>
+		<group>
+			<info>
+				<audio src="listening03.mp3" label="Dialogue 3; question 5 - 7"/>
+				<image src="listening03.jpg"/>
+			</info>
+			<page>
+				<question skill="Listening">What is Brad's problem?
+					<answer type="select-single" style="radio">
+						<option>He is sick with the flu.</option>
+						<option>He is in the hospital.</option>
+						<option>He has missed some tests.</option>
+						<option score="1">He is behind in class.</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Listening">What does Brad want Jodi to do?
+					<answer type="select-single" style="radio">
+						<option>Go to the class for him.</option>
+						<option score="1">Let him copy her notes.</option>
+						<option>Help him study.</option>
+						<option>Explain her notes.</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Listening">What does Jodi offer to do?
+					<answer type="select-single" style="radio">
+						<option score="1">Help make sure her notes are clear.</option>
+						<option>Make a copy of the tests for him.</option>
+						<option>Read his notes before the next class.</option>
+						<option>Give him the answers to the tests.</option>
+					</answer>
+				</question>
+			</page>
+		</group>
+		<group>
+			<info>
+				<audio src="listening04.mp3" label="Dialogue 4; question 8 - 10"/>
+				<image src="listening04.jpg"/>
+			</info>
+			<page>
+				<question skill="Listening">Who is the woman?
+					<answer type="select-single" style="radio">
+						<option>The man's friend.</option>
+						<option score="1">A salesperson.</option>
+						<option>A shopper.</option>
+						<option>A long distance telephone operator.</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Listening">How did the man want to pay?
+					<answer type="select-single" style="radio">
+						<option>By credit card.</option>
+						<option>By cash.</option>
+						<option>By cheque.</option>
+						<option score="1">By debit card.</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Listening">Who will receive the payment?
+					<answer type="select-single" style="radio">
+						<option>Mr. Larson.</option>
+						<option>Mr. Janson.</option>
+						<option>Mr. Larsen.</option>
+						<option score="1">Mr. Jensen.</option>
+					</answer>
+				</question>
+			</page>
+		</group>
+	</section>
+	
+	
+	<section>
+		<instruction>
+			<b>VOCABULARY and GRAMMAR - Directions for questions 11-60.</b><br/>Read each sentence carefully. Choose the correct word or phrase that best completes each sentence.
+		</instruction>
+		<group>
+			<info>
+				<image src="efset01.jpg"/>
+			</info>
+			<page>
+				<question skill="Vocabulary">
+					Jorge speaks Spanish. He comes ____ Mexico.
+					<answer type="select-single">
+						<option>in</option>
+						<option>of</option>
+						<option>by</option>
+						<option score="1">from</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					I ____ two brothers and a sister.
+					<answer type="select-single">
+						<option>am</option>
+						<option>has</option>
+						<option score="1">have</option>
+						<option>are</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					'Have you been crying?' 'No, I ____.'
+					<answer type="select-single">
+						<option>have</option>
+						<option>didn't</option>
+						<option score="1">haven't</option>
+						<option>don't</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					Chris is pointing at ____.
+					<answer type="select-single">
+						<option>she</option>
+						<option score="1">her</option>
+						<option>he</option>
+						<option>they</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					Please turn the volume ____ on the TV. It's much too loud.
+					<answer type="select-single">
+						<option score="1">down</option>
+						<option>up</option>
+						<option>out</option>
+						<option>off</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					It often ____ in the summer.
+					<answer type="select-single">
+						<option score="1">rains</option>
+						<option>rain</option>
+						<option>is raining</option>
+						<option>raining</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					We ____ to New York on holiday last year.
+					<answer type="select-single">
+						<option>go</option>
+						<option>gone</option>
+						<option score="1">went</option>
+						<option>been</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					My brother was ____ all week.
+					<answer type="select-single">
+						<option>at the home</option>
+						<option>in the home</option>
+						<option>in home</option>
+						<option score="1">at home</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					Philip is writing ____.
+					<answer type="select-single">
+						<option>with pen</option>
+						<option>by a pen</option>
+						<option score="1">on paper</option>
+						<option>by paper</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					I'll call from the station as soon as I ____ there.
+					<answer type="select-single">
+						<option score="1">get</option>
+						<option>shall get</option>
+						<option>got</option>
+						<option>will get</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					This is ____ that.
+					<answer type="select-single">
+						<option>different that</option>
+						<option>the same that</option>
+						<option score="1">the same as</option>
+						<option>the different from</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					I'm going to give ____.
+					<answer type="select-single">
+						<option>to him a book</option>
+						<option score="1">him a book</option>
+						<option>a book him</option>
+						<option>some book him</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					You've got to tell him that ____ old to drive a car.
+					<answer type="select-single">
+						<option>he's getting so</option>
+						<option>he gets too</option>
+						<option score="1">he's getting too</option>
+						<option>he gets so</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					She hardly ever eats ____ cheese.
+					<answer type="select-single">
+						<option>neither butter nor</option>
+						<option score="1">butter or</option>
+						<option>or butter or</option>
+						<option>neither butter or</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					'Tim and John's books are on the table' 'Sorry, I didn't hear you. Where are the ____?'
+					<answer type="select-single">
+						<option>boys books</option>
+						<option>boy's books</option>
+						<option>boy's book</option>
+						<option score="1">boys' books</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					'Do you like that shop?' 'Yes, I ____ every week.'
+					<answer type="select-single">
+						<option>come there</option>
+						<option>come here</option>
+						<option score="1">go there</option>
+						<option>go here</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					When we got to school, we ____ the bell.
+					<answer type="select-single">
+						<option score="1">heard</option>
+						<option>listened</option>
+						<option>were hearing</option>
+						<option>were listening</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					Environmentalists are becoming ____ worried about the ozone layer.
+					<answer type="select-single">
+						<option score="1">increasingly</option>
+						<option>increase</option>
+						<option>increasing</option>
+						<option>increased</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					Everyone loves my grandmother. She looks so ____.
+					<answer type="select-single">
+						<option>pleasantly</option>
+						<option>she's pleasant</option>
+						<option>to be pleasant</option>
+						<option score="1">pleasant</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					You ____ to lie down if you don't feel well.
+					<answer type="select-single">
+						<option score="1">ought</option>
+						<option>would</option>
+						<option>will</option>
+						<option>should</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					When Beth got tired, she stopped ____.
+					<answer type="select-single">
+						<option>study</option>
+						<option score="1">studying</option>
+						<option>studies</option>
+						<option>to study</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					His daughter is ____.
+					<answer type="select-single">
+						<option score="1">as old as yours</option>
+						<option>as old as your one</option>
+						<option>so old as yours</option>
+						<option>so old as your one</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					He'd previously had a car but it ____ several times last spring.
+					<answer type="select-single">
+						<option>was breaking down</option>
+						<option>has broken down</option>
+						<option>breaks down</option>
+						<option score="1">broke down</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					What on earth have you ____! The house is full of smoke.
+					<answer type="select-single">
+						<option>to cook</option>
+						<option score="1">been cooking</option>
+						<option>cook</option>
+						<option>be cooking</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					____ at the moment, I'll go to the shops.
+					<answer type="select-single">
+						<option>As it doesn't rain</option>
+						<option>For it doesn't rain</option>
+						<option score="1">As it isn't raining</option>
+						<option>For it isn't raining</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					Your bicycle shouldn't be in the house! ____
+					<answer type="select-single">
+						<option>Get it out!</option>
+						<option>Put it out!</option>
+						<option score="1">Take it out!</option>
+						<option>Take away it!</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					She didn't thank me for the flowers. That's ____ annoyed me.
+					<answer type="select-single">
+						<option score="1">what</option>
+						<option>the which</option>
+						<option>the thing what</option>
+						<option>that which</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					We usually go to the local bakery ____ our bread.
+					<answer type="select-single">
+						<option>for buying</option>
+						<option>in order buy</option>
+						<option>for to buy</option>
+						<option score="1">to buy</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					Patrick doesn't eat meat. ____
+					<answer type="select-single">
+						<option>John doesn't that either.</option>
+						<option>So doesn't John.</option>
+						<option score="1">Neither does John.</option>
+						<option>John doesn't too.</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					She wants to get a better ____ and earn more money.
+					<answer type="select-single">
+						<option score="1">job</option>
+						<option>employ</option>
+						<option>work</option>
+						<option>employment</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					I don't think we've met before. You're confusing me with ____.
+					<answer type="select-single">
+						<option>one other</option>
+						<option>other person</option>
+						<option score="1">someone else</option>
+						<option>some other</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					He ____ in his homework.
+					<answer type="select-single">
+						<option>did a lot of faults</option>
+						<option score="1">made a lot of mistakes</option>
+						<option>did a lot of mistakes</option>
+						<option>made a lot of faults</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					That's the course of studies ____.
+					<answer type="select-single">
+						<option score="1">I'm interested in</option>
+						<option>what I'm interested on</option>
+						<option>I'm interested on</option>
+						<option>what I'm interested in</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					She came to the party ____ she hadn't been invited.
+					<answer type="select-single">
+						<option>in case</option>
+						<option>even</option>
+						<option>in spite of</option>
+						<option score="1">although</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					We were in the station for at least half an hour waiting ____ leave.
+					<answer type="select-single">
+						<option>for the train</option>
+						<option>the train to</option>
+						<option>the train's</option>
+						<option score="1">for the train to</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					I ____ you earlier but I've been extremely busy.
+					<answer type="select-single">
+						<option>must have rung</option>
+						<option score="1">should have rung</option>
+						<option>had to ring</option>
+						<option>ought to ring</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					I wish I ____ suggest something more suitable but this is all we can offer.
+					<answer type="select-single">
+						<option score="1">could</option>
+						<option>can</option>
+						<option>should</option>
+						<option>would</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					If Teresa doesn't turn ____ in the next few minutes, we'll just have to go without her.
+					<answer type="select-single">
+						<option>out</option>
+						<option score="1">up</option>
+						<option>off</option>
+						<option>in</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					She was wearing ____ beautiful clothes that I was really jealous.
+					<answer type="select-single">
+						<option>a so</option>
+						<option>so</option>
+						<option score="1">such</option>
+						<option>such a</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					While I was walking through the park a pigeon ____ on my shoulder.
+					<answer type="select-single">
+						<option>lands</option>
+						<option>land</option>
+						<option score="1">landed</option>
+						<option>landing</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					I'll ask for the bill when you____ your coffee.
+					<answer type="select-single">
+						<option>'ll have finished</option>
+						<option score="1">'ve finished</option>
+						<option>'ll finish</option>
+						<option>'d finish</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					She ____ out of the window for a moment and then went on working.
+					<answer type="select-single">
+						<option>regarded</option>
+						<option>viewed</option>
+						<option>glimpsed</option>
+						<option score="1">glanced</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					Lunch will ____ be ready but we have time for a drink first.
+					<answer type="select-single">
+						<option>nearly</option>
+						<option>quite</option>
+						<option>almost</option>
+						<option score="1">soon</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					Our main concern is to raise the ____ of living in poorer areas.
+					<answer type="select-single">
+						<option>condition</option>
+						<option score="1">standard</option>
+						<option>capacity</option>
+						<option>degree</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					I mustn't ____ to upset her.
+					<answer type="select-single">
+						<option score="1">do anything</option>
+						<option>to do something</option>
+						<option>do nothing</option>
+						<option>to do a thing</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					I ____ you that we are doing all we can to get a technician to you as soon as possible.
+					<answer type="select-single">
+						<option>confirm</option>
+						<option>undergo</option>
+						<option score="1">assure</option>
+						<option>assist</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					We can never relax in this office. New problems are continually ____.
+					<answer type="select-single">
+						<option>coming out</option>
+						<option score="1">coming up</option>
+						<option>raising</option>
+						<option>presenting</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					I'm sorry to ____ you when you're so busy but I need your help.
+					<answer type="select-single">
+						<option>molest</option>
+						<option score="1">bother</option>
+						<option>interfere</option>
+						<option>intrude</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					Your parcel ____.
+					<answer type="select-single">
+						<option>has arrived two days ago</option>
+						<option>arrived since two days</option>
+						<option>has arrived since two days</option>
+						<option score="1">arrived two days ago</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Vocabulary">
+					How long does it take for the effect of the drug to ____ off?
+					<answer type="select-single">
+						<option>run</option>
+						<option score="1">wear</option>
+						<option>turn</option>
+						<option>break</option>
+					</answer>
+				</question>
+			</page>
+		</group>
+	</section>
+
+	<section>
+		<instruction>
+			<b>READING - Directions for questions 61-70</b><br/>Read each text carefully and answer the questions based on each text.
+		</instruction>
+		<group>
+			<info>
+				<image src="Reading01.jpg"/>
+			</info>
+			<page>
+				<question skill="Reading">
+					Where can you see this notice?
+					<answer type="select-single">
+						<option>In a school.</option>
+						<option>In a museum.</option>
+						<option score="2">In a shop.</option>
+					</answer>
+				</question>
+			</page>
+		</group>
+		<group>
+			<info>
+				<image src="Reading02.jpg"/>
+			</info>
+			<page>
+				<question skill="Reading">
+					Where can you see this notice?
+					<answer type="select-single">
+						<option score="2">In a hospital.</option>
+						<option>In an office.</option>
+						<option>In a library.</option>
+					</answer>
+				</question>
+			</page>
+		</group>
+		<group>
+			<info>
+				<text>
+					<b>
+						Question 63 - 65<br/>200 miles from the North Pole
+					</b>
+					<br/>Dave Mill is on a 500-mile walk so this is no ordinary journey. He is trying to walk to the North Pole from Canada. He is the first person to try to walk alone and completely unaided; no planes will drop him extra supplies. He is 33 and from Perth in Scotland. He left Ward Hunt Island, Canada, on April 12, carrying all his food and equipment on a sledge. At this time of the year temperatures can fluctuate from -8C to as low as -18C. He knows this is a very difficult challenge he has set himself but he won't give up easily. On Tuesday, for example, he walked 16km in storms and he fell through ice up to his knees while wearing skis.<br/>
+					He has completed about two-thirds of his trek so he is about 200 miles from the North Pole but for the last four days he has been confined to his temporary camp by fierce Arctic storms with winds of up to 60mph. Visibility is minimal so it is very difficult for him to navigate across the last part of his journey. In addition, the ice is breaking up and separating from the stable ice. This means that he may find areas of clear water between him and his final destination.<br/>
+					The organizers of the expedition say they may have to rescue him if he cannot continue to the North Pole.  Of course, they hope this will not happen but they explain that there are limits. The organizers keep in touch with Dave via satellite phone. As soon as Dave says he can go no further, they have a plan to get him out. His family fully support him in his adventure and say they are proud of him whether he finishes the journey or not.
+				</text>
+			</info>
+			<page>
+				<question skill="Reading">
+					What is special about Dave Mill's journey?
+					<answer type="select-single" style="radio">
+						<option>He started the journey in April.</option>
+						<option>No one has walked to the North Pole before.</option>
+						<option score="2">He will not accept help from anyone.</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Reading">
+					What is the problem that Dave now faces?
+					<answer type="select-single" style="radio">
+						<option>He cannot see a clear way to continue.</option>
+						<option score="2">He must stay in his camp because of the weather.</option>
+						<option>He lost his skis during an accident.</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Reading">
+					The organizers will rescue Dave when...
+					<answer type="select-single" style="radio">
+						<option>his family ask for help.</option>
+						<option score="2">Dave tells them he cannot go on.</option>
+						<option>they lose the satellite connection.</option>
+					</answer>
+				</question>
+			</page>
+		</group>
+		<group>
+			<info>
+				<text>
+					<b>
+						Question 66 - 70 <br/> New graduate - new job
+					</b>
+					Summer turns most people's thoughts to holidays, but those leaving university or school will be thinking about the big, wide world of work. Whatever job you decide to tackle first, it will prove to be a valuable training ground. Filing or typing memos may not be your idea of a great career move, but be prepared to learn these lowly tasks. You may have a top degree, but no boss will hire you if you can't answer the telephone in a proper manner.<br/><br/>
+					Most graduates and school leavers will be coming into the employment market in the summer, so competition will be tough. Start searching sooner rather than later. You should highlight any work experience you have and say you are keen to learn. It also helps to research the firms and what the job involves. Remember that most junior hiring decisions are made on personality. Firms are looking for reliable, conscientious and punctual employees. While most employers want junior staff to take the initiative and be receptive to their ideas, you must be realistic about time-frames for promotion. And even if you end up spending your career doing something other than your first job, bear in mind that you will learn very useful and often transferable skills in the process.<br/><br/>
+					Aim to be hired by the firm that has the best reputation for employee training. At the interview you should ask about what sort of experience you will gain. The faster you can pick up the experience, the faster you can move up the corporate ladder. A good company will start you in a 'proper' job, which is mixed with technical and personal training. As well as learning computer and other professional skills, good firms also offer training which focuses on interaction with colleagues. In many companies trainees are allotted a 'mentor', a senior member of staff - not their immediate boss - who they can consult on difficult areas. New employees are encouraged to socialize and network with other trainees, which is again another way of finding support and advice but this time through their peers. <br/><br/>
+					In fact once installed in your new position, the first thing is to work out the pecking order. Many people try to deny it but office politics does exist. If you've never been in a work environment before, use your first job to learn about how to handle it or how to avoid it.
+				</text>
+			</info>
+			<page>
+				<question skill="Reading">
+					The writer points out that in a first job you have to...
+					<answer type="select-single" style="radio">
+						<option>use your qualifications.</option>
+						<option score="2">expect to do menial jobs.</option>
+						<option>be good at communication.</option>
+						<option>go through rigorous training.</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Reading">
+					What should job-seekers do?
+					<answer type="select-single" style="radio">
+						<option>Make sure they know the competition.</option>
+						<option>Work in a temporary summer job first.</option>
+						<option score="2">Show evidence of any previous positions.</option>
+						<option>Apply for a range of jobs.</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Reading">
+					The writer warns people in their first jobs...
+					<answer type="select-single" style="radio">
+						<option score="2">not to be too hasty in their desire to get on.</option>
+						<option>not to waste time learning non-transferrable skills.</option>
+						<!--<option>that they will have to be model employees to make an impression.</option>-->
+						<option>they should be model employees to make an impression.</option>
+						<option>that they will have to accept the company's ideas.</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Reading">
+					The writer suggests that if you get a job with a company which offers training, you will...
+					<answer type="select-single" style="radio">
+						<option score="2">gain worthwhile experience quickly.</option>
+						<option>benefit from its good reputation.</option>
+						<option>meet senior people.</option>
+						<option>be trained in the latest technology.</option>
+					</answer>
+				</question>
+			</page>
+			<page>
+				<question skill="Reading">
+					What are new employees advised to find out about initially?
+					<answer type="select-single" style="radio">
+						<option>The way to process new orders.</option>
+						<option>The times of breaks.</option>
+						<option score="2">The office hierarchy.</option>
+						<option>The schedule for the office gym.</option>
+					</answer>
+				</question>
+			</page>
+		</group>
+	</section>
+</test>
